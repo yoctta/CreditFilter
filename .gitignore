@@ -1,0 +1,6 @@
+/models/
+/runs/
+/results/
+/measurement/*/runs/
+__pycache__/
+*.pyc

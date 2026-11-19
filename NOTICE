@@ -1,0 +1,14 @@
+CreditFilter training and evaluation code
+Copyright 2026 the authors of "CreditFilter: Calibrated Token Weights over the Within-Response Entropy Rank for RLVR"
+
+This product includes software developed by the verl project (https://github.com/volcengine/verl),
+Copyright 2023-2024 Bytedance Ltd. and/or its affiliates, licensed under the Apache License, Version 2.0.
+
+The directory verl/ is a copy of verl 0.8.0.dev at upstream commit f92bc5c435c6fc2e6d1f94484164de26f4574bd7 (2026-04-07).
+The following files of it were changed for this work; each of them carries a notice of the change below its licence header:
+
+  verl/trainer/ppo/ray_trainer.py
+  verl/utils/torch_functional.py
+  verl/utils/tracking.py
+  verl/workers/engine/fsdp/transformer_impl.py
+  verl/workers/engine_workers.py
